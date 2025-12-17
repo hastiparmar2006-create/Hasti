@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - SmartServe Solutions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-gray-700">
+
+<!-- NAVBAR -->
+<header class="text-gray-600 body-font shadow bg-white">
+  <div class="container mx-auto flex flex-wrap p-5 justify-between items-center">
+    <a class="flex title-font font-bold items-center text-indigo-600 text-xl">
+      SmartServe Solutions
+    </a>
+    <nav class="md:ml-auto flex space-x-6 text-base">
+      <a href="index.html" class="hover:text-indigo-600">Home</a>
+      <a href="about.html" class="hover:text-indigo-600">About</a>
+      <a href="services.html" class="hover:text-indigo-600">Services</a>
+      <a href="contact.html" class="hover:text-indigo-600 font-semibold">Contact</a>
+    </nav>
+    <a href="login.html" class="bg-indigo-600 text-white px-4 py-1 rounded hover:bg-indigo-700">
+      Login
+    </a>
+  </div>
+</header>
+
+<!-- CONTACT HERO -->
+<section class="relative text-gray-700 body-font h-80" style="background: url('assets/images/contact-bg.jpg') no-repeat center center/cover;">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="container mx-auto flex px-5 h-full items-center justify-center text-center relative z-10">
+    <h1 class="text-4xl font-bold text-white">Contact Us</h1>
+  </div>
+</section>
+
+<!-- CONTACT FORM & INFO -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-5 text-center">
+    <h2 class="text-3xl font-bold text-gray-900 mb-6">Reach Out to Us</h2>
+    <p class="text-gray-600 mb-10">For queries, partnerships, or support, send us a message using the form below.</p>
+
+    <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+      <!-- Office Info -->
+      <div class="bg-white p-6 rounded-lg shadow text-left">
+        <h3 class="font-semibold text-indigo-600">Head Office</h3>
+        <p class="mt-2 text-gray-600">
+          H.No: 7-1-395/5, Near SBI Bank, Balkampet Road, S.R.Nagar, Hyderabad – 500016
+        </p>
+        <p class="mt-2 text-gray-600">Phone: +91 98667 23069</p>
+        <p class="mt-2 text-gray-600">Email: contact@smartservesolutions.in</p>
+        <iframe class="mt-4 w-full h-48 rounded" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.736875563668!2d78.452252!3d17.437276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9146f2bcaaab%3A0x93f88aa165dc8bfa!2sS.R.%20Nagar%2C%20Hyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1695563541000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="bg-white p-6 rounded-lg shadow">
+        <form>
+          <input class="w-full mb-3 p-2 border rounded" placeholder="Name" required>
+          <input class="w-full mb-3 p-2 border rounded" type="email" placeholder="Email" required>
+          <textarea class="w-full mb-3 p-2 border rounded" placeholder="Message" required></textarea>
+          <button class="w-full bg-indigo-600 text-white py-2 rounded hover:bg-indigo-700">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="bg-gray-900 text-white text-center p-4">
+  © 2025 SmartServe Solutions
+</footer>
+
+</body>
+</html>
